@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>D3.js Tutorial</title>
+  <style>
+    .bar.chart div {
+      font: 10px sans-serif;
+      background-color: steelblue;
+      text-align: right;
+      padding: 3px;
+      margin: 1px;
+      color: white;
+      transition: background-color 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .pushcard.chart div {
+      font: 10px sans-serif;
+      background-color: green;
+      text-align: center;
+      border-radius: 999px;
+      padding: 3px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      margin: 5px;
+      display: inline-block;
+      color: white;
+      transition: background-color 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .bar.chart div:hover {
+      background-color: blue;
+      transition: background-color 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .pushcard.chart div:hover {
+      background-color: greenyellow;
+      transition: background-color 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>Below are some samples how to use d3.js in simple HTML environment.</p>
+  <hr>
+  <h2>Bar Chart</h2>
+  <div class="bar chart"></div>
+  <h2>Pushcard Chart</h2>
+  <div class="pushcard chart"></div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
