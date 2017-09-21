@@ -1,5 +1,7 @@
 # D3-HTML-Tutorial
 
+![D3.js HTML Example](img/Screenshot_1.png)
+
 This repository is intended to showcase how to implement d3js to make various chart.
 
 # Usage
